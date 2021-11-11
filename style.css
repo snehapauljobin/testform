@@ -1,0 +1,42 @@
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    margin-top:5%;
+    transform: translatex(-50%);
+}
+.navbar{
+    background: #E5E5E5;
+   justify-content: space-between;
+}
+a{
+    /* font-size: 24px; */
+    font-family: "Work sans";
+}
+.navbar-brand{
+    margin-left: 5%;
+    /* height:6.52px;
+    width:6.52px;
+    top:2.37px; */
+}
+.inlign{
+    display:inline-flex;
+}
+p{
+    font-family: "Work sans";
+    /* font-size: 24px; */
+}
+.hero{
+    width:300px;
+    height:200px;
+}
+.learn{
+    border-width: thin;
+    border-color: red;
+    color:red;
+    font-size: small;
+    background-color:white;
+}
+.learn:hover{
+    background-color:red;
+    color:white;
+}
